@@ -1,0 +1,41 @@
+/* Paleta: Navy #232d39 | Orange #fb5849 */
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-investigacion {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    border-left: 6px solid #232d39; /* Navy */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.btn-demo {
+    background-color: #fb5849; /* Orange */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-demo:hover {
+    background-color: #232d39;
+    transform: translateY(-2px);
+}
+
+.result-container {
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 8px;
+    min-height: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    border: 1px solid #dee2e6;
+}
